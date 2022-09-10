@@ -1,6 +1,5 @@
 from wsgiref import simple_server
-from flask import Flask, request, render_template
-from flask import Response
+from flask import Flask, render_template,Response,request
 import os
 from flask_cors import CORS, cross_origin
 from prediction_Validation_Insertion import pred_validation
